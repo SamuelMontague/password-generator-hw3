@@ -9,7 +9,7 @@ var specialchar = "!@#$%^&*()'=+-_/<>?[\]{~}"
 var selection = "";
 
   generateBtn.addEventListener("click", function () {
-  ps= generatePassword();
+  var ps= generatePassword();
   document.getElementById("password").value = ps;
   });
 
@@ -62,18 +62,11 @@ function generatePassword() {
       password.push(pickpassword);
   }
     
-    console.log(selection.join(''));
-    selection.join('');
-      return;
+    return password.join('');
+}
 
-    
-  function userInput(ps) {
-
-    document.getElementById("password").textContent = ps;
-    }
 
   function copyPassword() {
     document.getElementById("password").select();
     document.execCommand("generate");
   }
-}
