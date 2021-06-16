@@ -12,7 +12,7 @@ var selection = "";
   var ps= generatePassword();
   document.getElementById("password").value = ps;
   });
-
+//
 // Write password to the #password input
 function generatePassword() {
 
