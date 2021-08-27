@@ -1,15 +1,36 @@
-Password Generator 
+# hw3-password-generator
 
-When prompted the user is asked how many characters they would like their password to be. Anything between 8 and 128 characters works.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+  
+#Description
 
-When asked if the user would like to use lower case characters, if clicked "ok" then the  generator will include lower case characters.
+This front-end application creates a password using alerts to specify the character criteria for the password. 
 
-When asked if the user would like to use upper case characters, if clicked "ok" then the generator will include upper case characters.
+    
+# Table of Contents
 
-When asked if the user would like to use numericals characters, if clicked "ok" then the generator will include numerical characters.
+* [Usage](#usage)
 
-When asked if the user would like to use symbol characters,a if clicked "ok" then the generator will include symbols in the password.
+* [License](#license)
 
-Depending on what characters were selected, the generator generates a password with the specific amount of characters asked for. 
+* [Contributing](#contributing)
 
-The generated password is easily copy and pasted to use for new passwords.
+* [Questions](#questions)
+    
+ 
+
+# Usage
+
+The user can select to generate a new password, the user will follow the prompts to create a new password. Copy the password and use it to your hearts content.
+
+# License
+
+This application is covered by the MIT license.
+    
+# Contributing
+
+Contributors: Samuel Montague
+
+# Questions
+
+If you have any questions about the repo, open an issue or contact me directly at SamuelpMontague@gmail.com. You can find more of my work at (https://github.com/SamuelMontague/).
